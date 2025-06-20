@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Navigation from './components/Navigations/Navigation';
 
 function App() {
   return (
     <div className="App">
-      <h2 className='text-3x1 font-bold underline'>Hello</h2>
+      <Navigation />
     </div>
   );
 }
