@@ -4,7 +4,7 @@ import SeactionHeading from './SectionHeading/SeactionHeading'
 const NewArrivals = () => {
   return (
     <>
-    <SeactionHeading title ={'New Arrivals'} />
+    <SeactionHeading title ={'New Arrivals'}/>
     </>
   )
 }
