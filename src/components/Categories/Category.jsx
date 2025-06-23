@@ -10,7 +10,7 @@ const Category = ({ title, data }) => {
         {data && data?.map((item, index) => {
           return (
             <Card key={index} title={item?.title} description={item?.description} imagePath={item?.image}
-              actionArrow={true} height={'280px'} width={'200px'} />
+              actionArrow={true} height={'280px'} width={'220px'}/>
           )
         })}
       </div>
