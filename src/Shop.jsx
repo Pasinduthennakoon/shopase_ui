@@ -7,7 +7,7 @@ import Category from './components/Categories/Category'
 import content from './data/content.json'
 import Footer from './components/Footer/Footer'
 
-export const Shop = () => {
+const Shop = () => {
   return (
     <>
       <Navigation />
