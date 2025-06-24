@@ -1,11 +1,17 @@
 import { createBrowserRouter } from "react-router-dom";
 import Shop from "./Shop";
 import ProductListPage from "./pages/ProductListPage/ProductListPage"
+import Navigation from "./components/Navigations/Navigation";
 
 export const router = createBrowserRouter([
   {
     path:"/",
-    element: <Shop />,
+    element: (
+      <>
+        <Navigation />
+        <Shop />
+      </>
+    ),
   },
   {
     path:"/womens",
