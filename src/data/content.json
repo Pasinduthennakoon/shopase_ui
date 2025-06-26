@@ -282,7 +282,22 @@
                     "description": "Kids' jeans"
                 }
             ],
-            "meta_data": {}
+            "meta_data": {
+                "colors": [
+                    "Black",
+                    "White",
+                    "Purple",
+                    "Gray",
+                    "Blue",
+                    "Red",
+                    "Orange",
+                    "Navy",
+                    "Grey",
+                    "Yellow",
+                    "Pink",
+                    "Green"
+                ]
+            }
         }
     ],
     "products": [
@@ -304,7 +319,7 @@
                 "Blue"
             ],
             "discount": 20,
-            "thumbnail": "https://codedev.b-cdn.net/products/sweatshirt-black.jpg",
+            "thumbnail": "images/Black Sweatshirt Girls.avif",
             "images": [
                 "https://codedev.b-cdn.net/products/sweatshirt-black.jpg",
                 "https://codedev.b-cdn.net/products/woman-black-shirt-giving-neutral-flirtatious-poses.jpg",
@@ -333,7 +348,7 @@
                 "https://codedev.b-cdn.net/products/tshirt-white.jpg",
                 "https://codedev.b-cdn.net/products/tshirt-white.jpg"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/tshirt-white.jpg",
+            "thumbnail": "images/White T-shirt Girl.webp",
             "rating": 4.5
         },
         {
@@ -357,7 +372,7 @@
                 "hoodie-purple1.jpg",
                 "hoodie-purple2.jpg"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/hoodie-purple.jpg",
+            "thumbnail": "images/Purple Hoodie Girl.avif",
             "rating": 4.6
         },
         {
@@ -381,7 +396,7 @@
                 "dress-white-leaves1.jpg",
                 "dress-white-leaves2.jpg"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/dress-white-leaves.jpg",
+            "thumbnail": "images/Leaves Pattern White Dress Girl.webp",
             "rating": 4.7
         },
         {
@@ -405,7 +420,7 @@
                 "crop-top-white1.jpg",
                 "crop-top-white2.jpg"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/crop-top-white.jpeg",
+            "thumbnail": "images/White Graphic Crop Top Girl.webp",
             "rating": 4.3
         },
         {
@@ -429,7 +444,7 @@
                 "shorts-black1.jpg",
                 "shorts-black2.jpg"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/shorts-black.jpeg",
+            "thumbnail": "images/Black Shorts Girl.webp",
             "rating": 4.5
         },
         {
@@ -453,7 +468,7 @@
                 "jeans-blue1.jpg",
                 "jeans-blue2.jpg"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/jeans-blue.jpeg",
+            "thumbnail": "images/Women's Skinny Jeans3.webp",
             "rating": 4.8
         },
         {
@@ -477,7 +492,7 @@
                 "sweatshirt-gray1.jpg",
                 "sweatshirt-gray2.jpg"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/sweatshirt-crewneck.jpeg",
+            "thumbnail": "images/Crewneck Sweatshirt Girl.jpeg",
             "rating": 4.6
         },
         {
@@ -501,7 +516,7 @@
                 "shorts-denim1.jpg",
                 "shorts-denim2.jpg"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/shorts-denim.jpeg",
+            "thumbnail": "images/Denim Shorts Girl.jpg",
             "rating": 4.7
         },
         {
@@ -525,7 +540,7 @@
                 "tshirt-black1.jpg",
                 "tshirt-black2.jpg"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/tshirt-black.jpg",
+            "thumbnail": "images/Black Plain T-shirt Girl.jpg",
             "rating": 4.5
         },
         {
@@ -549,7 +564,7 @@
                 "crop-top-blue-flower1.jpg",
                 "crop-top-blue-flower2.jpg"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/crop-top-blue-flower.jpeg",
+            "thumbnail": "images/Blue Flower Print Crop Top.webp",
             "rating": 4.3
         },
         {
@@ -573,7 +588,7 @@
                 "crop-top-black1.jpg",
                 "crop-top-black2.jpg"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/crop-top-black.jpeg",
+            "thumbnail": "images/Black Crop Top.webp",
             "rating": 4.2
         },
         {
@@ -597,7 +612,7 @@
                 "black-tshirt1.jpg",
                 "black-tshirt2.jpg"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/black-tshirt.jpeg",
+            "thumbnail": "images/Black T-Shirt.webp",
             "rating": 4.5
         },
         {
@@ -621,7 +636,7 @@
                 "white-hoodie1.jpg",
                 "white-hoodie2.jpg"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/white-hoodie.jpeg",
+            "thumbnail": "images/White Hoodie.webp",
             "rating": 4.7
         },
         {
@@ -645,7 +660,7 @@
                 "blue-jeans1.jpg",
                 "blue-jeans2.jpg"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/blue-jeans.jpg",
+            "thumbnail": "images/Blue Jeans.webp",
             "rating": 4.6
         },
         {
@@ -669,7 +684,7 @@
                 "gray-shorts1.jpg",
                 "gray-shorts2.jpg"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/gray-shorts.jpg",
+            "thumbnail": "images/Gray Shorts.webp",
             "rating": 4.4
         },
         {
@@ -693,7 +708,41 @@
                 "black-hoodie1.jpg",
                 "black-hoodie2.jpg"
             ],
-            "thumbnail": "https://codedev.b-cdn.net/products/black-hoodie.jpeg",
+            "thumbnail": "images/Black Hoodie.webp",
+            "rating": 4.8
+        },
+        {
+            "id": 18,
+            "title": "Printed T-Shirt",
+            "description": "Comfortable cotton colorful t-shirt for boys",
+            "category_id": 3,
+            "type_id": 14,
+            "brand": "Adidas",
+            "price": 59.99,
+            "size": [
+                "S"
+            ],
+            "color": [],
+            "discount": 15,
+            "images": [],
+            "thumbnail": "images/Printed T-Shirt Kids.webp",
+            "rating": 4.8
+        },
+        {
+            "id": 18,
+            "title": "White Jeans",
+            "description": "Comfortable Denim Jeans for boys",
+            "category_id": 3,
+            "type_id": 14,
+            "brand": "Polo",
+            "price": 40.99,
+            "size": [
+                "S"
+            ],
+            "color": [],
+            "discount": 15,
+            "images": [],
+            "thumbnail": "images/White Jeans Kids.webp",
             "rating": 4.8
         }
     ]
