@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImg from '../../assets/img/shop-hero-1-product-slide-1.png'
+import HeroImg from '../../assets/img/hero-section-2.png';
 
 const HeroSection = () => {
   return (
@@ -10,7 +10,7 @@ const HeroSection = () => {
                 <div className='text-left'>
                     <h2 className='text-2xl text-white'>T-shirt / Tops</h2>
                 </div>
-                <p className='mt-3 text-white sm:mt-5 sm:max-w-xl text-6xl'>
+                <p className='mt-3 text-white sm:mt-5 sm:max-w-xl text-6xl hover:text-black'>
                 Summer 
                 Value Pack
                 </p>
