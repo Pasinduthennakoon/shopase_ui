@@ -6,7 +6,7 @@ const Categories = ({types}) => {
       {types?.map(type => {
         return(
           <div className='flex items-center p-1'>
-           <input type='checkbox' name={type?.code} className='border rounded-xl w-4 h-4 accent-black text-black'/>
+           <input type='checkbox' name={type?.code} className='border rounded-xl w-4 h-4 accent-black text-black cursor-pointer'/>
             <label htmlFor={type?.code} className='px-2 text-[14px] text-gray-600'>{type?.name}</label>
           </div>
         )
