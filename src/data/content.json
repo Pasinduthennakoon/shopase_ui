@@ -128,27 +128,27 @@
             "description": "Men's Clothing",
             "types": [
                 {
-                    "id": 1,
+                    "type_id": 1,
                     "name": "Jeans",
                     "description": "Men's jeans"
                 },
                 {
-                    "id": 2,
+                    "type_id": 2,
                     "name": "Shirts",
                     "description": "Men's shirts"
                 },
                 {
-                    "id": 3,
+                    "type_id": 3,
                     "name": "Shorts",
                     "description": "Men's shorts"
                 },
                 {
-                    "id": 4,
+                    "type_id": 4,
                     "name": "T-shirts",
                     "description": "Men's t-shirts"
                 },
                 {
-                    "id": 14,
+                    "type_id": 14,
                     "name": "Hoodie's",
                     "description": "Men's Hoodie"
                 }
@@ -321,9 +321,9 @@
             "discount": 20,
             "thumbnail": "images/Black Sweatshirt Girls.avif",
             "images": [
-                "https://codedev.b-cdn.net/products/sweatshirt-black.jpg",
-                "https://codedev.b-cdn.net/products/woman-black-shirt-giving-neutral-flirtatious-poses.jpg",
-                "https://codedev.b-cdn.net/products/woman-holding-coffee-cup-smiling.jpg"
+                "images/Black Sweatshirt Girls.avif",
+                "images/Black Sweatshirt Girls1.avif",
+                "images/Black Sweatshirt Girls2.avif"
             ],
             "rating": 4.5
         },
@@ -345,8 +345,9 @@
             ],
             "discount": 15,
             "images": [
-                "https://codedev.b-cdn.net/products/tshirt-white.jpg",
-                "https://codedev.b-cdn.net/products/tshirt-white.jpg"
+                "images/White T-shirt Girl.webp",
+                "images/White T-shirt Girl1.webp",
+                "images/White T-shirt Girl2.webp"
             ],
             "thumbnail": "images/White T-shirt Girl.webp",
             "rating": 4.5
@@ -369,8 +370,9 @@
             ],
             "discount": 10,
             "images": [
-                "hoodie-purple1.jpg",
-                "hoodie-purple2.jpg"
+                "images/Purple Hoodie Girl.avif",
+                "images/Purple Hoodie Girl1.avif",
+                "images/Purple Hoodie Girl2.avif"
             ],
             "thumbnail": "images/Purple Hoodie Girl.avif",
             "rating": 4.6
@@ -393,8 +395,10 @@
             ],
             "discount": 5,
             "images": [
-                "dress-white-leaves1.jpg",
-                "dress-white-leaves2.jpg"
+                "images/Leaves Pattern White Dress Girl.webp",
+                "images/Leaves Pattern White Dress Girl1.webp",
+                "images/Leaves Pattern White Dress Girl2.webp",
+                "images/Leaves Pattern White Dress Girl3.webp"
             ],
             "thumbnail": "images/Leaves Pattern White Dress Girl.webp",
             "rating": 4.7
@@ -404,7 +408,7 @@
             "title": "White Graphic Crop Top",
             "description": "A trendy white graphic crop top for women",
             "category_id": 2,
-            "type_id": 9,
+            "type_id": 6,
             "brand": "TrendyWear",
             "price": 39.99,
             "size": [
@@ -417,8 +421,10 @@
             ],
             "discount": 10,
             "images": [
-                "crop-top-white1.jpg",
-                "crop-top-white2.jpg"
+                "images/White Graphic Crop Top Girl.webp",
+                "images/White Graphic Crop Top Girl1.webp",
+                "images/White Graphic Crop Top Girl2.webp",
+                "images/White Graphic Crop Top Girl3.webp"
             ],
             "thumbnail": "images/White Graphic Crop Top Girl.webp",
             "rating": 4.3
@@ -441,8 +447,10 @@
             ],
             "discount": 15,
             "images": [
-                "shorts-black1.jpg",
-                "shorts-black2.jpg"
+                "images/Black Shorts Girl.webp",
+                "images/Black Shorts Girl1.webp",
+                "images/Black Shorts Girl2.webp",
+                "images/Black Shorts Girl3.webp"
             ],
             "thumbnail": "images/Black Shorts Girl.webp",
             "rating": 4.5
@@ -465,8 +473,10 @@
             ],
             "discount": 10,
             "images": [
-                "jeans-blue1.jpg",
-                "jeans-blue2.jpg"
+                "images/Women's Skinny Jeans3.webp",
+                "images/Women's Skinny Jeans.webp",
+                "images/Women's Skinny Jeans1.webp",
+                "images/Women's Skinny Jeans2.webp"
             ],
             "thumbnail": "images/Women's Skinny Jeans3.webp",
             "rating": 4.8
@@ -489,8 +499,9 @@
             ],
             "discount": 10,
             "images": [
-                "sweatshirt-gray1.jpg",
-                "sweatshirt-gray2.jpg"
+                "images/Crewneck Sweatshirt Girl.jpeg",
+                "images/Crewneck Sweatshirt Girl1.jpeg",
+                "images/Crewneck Sweatshirt Girl2.jpeg"
             ],
             "thumbnail": "images/Crewneck Sweatshirt Girl.jpeg",
             "rating": 4.6
@@ -513,8 +524,10 @@
             ],
             "discount": 15,
             "images": [
-                "shorts-denim1.jpg",
-                "shorts-denim2.jpg"
+                "images/Denim Shorts Girl.jpg",
+                "images/Denim Shorts Girl1.jpg",
+                "images/Denim Shorts Girl2.jpg",
+                "images/Denim Shorts Girl3.jpg"
             ],
             "thumbnail": "images/Denim Shorts Girl.jpg",
             "rating": 4.7
@@ -537,8 +550,10 @@
             ],
             "discount": 10,
             "images": [
-                "tshirt-black1.jpg",
-                "tshirt-black2.jpg"
+                "images/Black Plain T-shirt Girl.jpg",
+                "images/Black Plain T-shirt Girl1.jpg",
+                "images/Black Plain T-shirt Girl2.jpg",
+                "images/Black Plain T-shirt Girl3.jpg"
             ],
             "thumbnail": "images/Black Plain T-shirt Girl.jpg",
             "rating": 4.5
@@ -548,7 +563,7 @@
             "title": "Blue Flower Print Crop Top",
             "description": "Stylish blue flower print crop top for women",
             "category_id": 2,
-            "type_id": 9,
+            "type_id": 11,
             "brand": "TrendyWear",
             "price": 34.99,
             "size": [
@@ -561,8 +576,10 @@
             ],
             "discount": 15,
             "images": [
-                "crop-top-blue-flower1.jpg",
-                "crop-top-blue-flower2.jpg"
+                "images/Blue Flower Print Crop Top.webp",
+                "images/Blue Flower Print Crop Top1.webp",
+                "images/Blue Flower Print Crop Top2.webp",
+                "images/Blue Flower Print Crop Top3.webp"
             ],
             "thumbnail": "images/Blue Flower Print Crop Top.webp",
             "rating": 4.3
@@ -572,7 +589,7 @@
             "title": "Black Crop Top",
             "description": "Stylish black crop top for women",
             "category_id": 2,
-            "type_id": 9,
+            "type_id": 6,
             "brand": "TrendyWear",
             "price": 29.99,
             "size": [
@@ -585,8 +602,10 @@
             ],
             "discount": 10,
             "images": [
-                "crop-top-black1.jpg",
-                "crop-top-black2.jpg"
+                "images/Black Crop Top.webp",
+                "images/Black Crop Top1.webp",
+                "images/Black Crop Top2.webp",
+                "images/Black Crop Top3.webp"
             ],
             "thumbnail": "images/Black Crop Top.webp",
             "rating": 4.2
@@ -609,8 +628,9 @@
             ],
             "discount": 10,
             "images": [
-                "black-tshirt1.jpg",
-                "black-tshirt2.jpg"
+                "images/Black T-Shirt.webp",
+                "images/Black T-Shirt1.webp",
+                "images/Black T-Shirt2.webp"
             ],
             "thumbnail": "images/Black T-Shirt.webp",
             "rating": 4.5
@@ -633,8 +653,9 @@
             ],
             "discount": 15,
             "images": [
-                "white-hoodie1.jpg",
-                "white-hoodie2.jpg"
+                "images/White Hoodie.webp",
+                "images/White Hoodie1.webp",
+                "images/White Hoodie2.webp"
             ],
             "thumbnail": "images/White Hoodie.webp",
             "rating": 4.7
@@ -657,8 +678,9 @@
             ],
             "discount": 20,
             "images": [
-                "blue-jeans1.jpg",
-                "blue-jeans2.jpg"
+                "images/Blue Jeans.webp",
+                "images/Blue Jeans1.webp",
+                "images/Blue Jeans2.webp"
             ],
             "thumbnail": "images/Blue Jeans.webp",
             "rating": 4.6
@@ -681,8 +703,10 @@
             ],
             "discount": 10,
             "images": [
-                "gray-shorts1.jpg",
-                "gray-shorts2.jpg"
+                "images/Gray Shorts.webp",
+                "images/Gray Shorts1.jpg",
+                "images/Gray Shorts2.webp",
+                "images/Gray Shorts3.webp"
             ],
             "thumbnail": "images/Gray Shorts.webp",
             "rating": 4.4
@@ -705,8 +729,9 @@
             ],
             "discount": 15,
             "images": [
-                "black-hoodie1.jpg",
-                "black-hoodie2.jpg"
+                "images/Black Hoodie.webp",
+                "images/Black Hoodie1.webp",
+                "images/Black Hoodie2.webp"
             ],
             "thumbnail": "images/Black Hoodie.webp",
             "rating": 4.8
@@ -724,12 +749,16 @@
             ],
             "color": [],
             "discount": 15,
-            "images": [],
+            "images": [
+                "images/Printed T-Shirt Kids.webp",
+                "images/Printed T-Shirt Kids1.webp",
+                "images/Printed T-Shirt Kids2.webp"
+            ],
             "thumbnail": "images/Printed T-Shirt Kids.webp",
             "rating": 4.8
         },
         {
-            "id": 18,
+            "id": 19,
             "title": "White Jeans",
             "description": "Comfortable Denim Jeans for boys",
             "category_id": 3,
@@ -741,7 +770,11 @@
             ],
             "color": [],
             "discount": 15,
-            "images": [],
+            "images": [
+                "images/White Jeans Kids.webp",
+                "images/White Jeans Kids1.webp",
+                "images/White Jeans Kids2.webp"
+            ],
             "thumbnail": "images/White Jeans Kids.webp",
             "rating": 4.8
         }
