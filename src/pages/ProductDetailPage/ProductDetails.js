@@ -4,6 +4,8 @@ import Breadcrumb from '../../components/Breadcrumb/Breadcrumb';
 import content from '../../data/content.json'
 import Rating from '../../components/Rating/Rating';
 import SizeFliter from '../../components/Filters/SizeFilter';
+import ProductColors from './ProductColors';
+import { CartIcon } from '../../components/common/CartIcon';
 
 const categories = content?.categories;
 
@@ -66,6 +68,9 @@ const ProductDetails = () => {
                 <p className='text-3xl pt-2'>{product?.title}</p>
                 <Rating rating={product?.rating} />
 
+                {/* price tag */}
+                <p className='text-xl bold py-2'>${product?.price}</p>
+
                 <div className='flex flex-col'>
                     <div className='flex gap-2'>
                         <p className='text-sm bold'>Select Size</p>
@@ -73,6 +78,17 @@ const ProductDetails = () => {
                     </div>
                 </div>
                 <div className='mt-2'><SizeFliter sizes={product?.size} hideTitle /></div>
+                <div>
+                    <p className='text-lg bold'>Colors Available</p>
+                    <ProductColors colors={product?.color} />
+                </div>
+                <div className='flex pt-4'>
+                    <button className='bg-black rounded-lg hover:bg-gray-700'>
+                        <div className='flex h-[42px] rounded-lg w-[150px] px-2 items-center justify-center bg-black text-white hover:bg-gray-700'><CartIcon bgColor="transparent" />
+                        Add to cart
+                        </div>
+                    </button>
+                </div>
             </div>
 
         </div>
