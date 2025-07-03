@@ -6,8 +6,32 @@ import Rating from '../../components/Rating/Rating';
 import SizeFliter from '../../components/Filters/SizeFilter';
 import ProductColors from './ProductColors';
 import { CartIcon } from '../../components/common/CartIcon';
-
+import SvgCreditCard from '../../components/common/SvgCreditCard';
+import SvgCloth from '../../components/common/SvgCloth';
+import SvgShipping from '../../components/common/SvgShipping';
+import SvgReturn from '../../components/common/SvgReturn';
+import React from 'react';
+import SeactionHeading from '../../components/Section/SectionHeading/SeactionHeading';
 const categories = content?.categories;
+
+const extraSection =[
+    {
+        icon:<SvgCreditCard />,
+        label:'Secure payment'
+    },
+    {
+        icon:<SvgCloth />,
+        label:'Size & Fit'
+    },
+    {
+        icon:<SvgShipping />,
+        label:'Free shipping'
+    },
+    {
+        icon:<SvgReturn />,
+        label:'Free Shipping & Returns'
+    }
+]
 
 const ProductDetails = () => {
 
@@ -89,8 +113,18 @@ const ProductDetails = () => {
                         </div>
                     </button>
                 </div>
+                <div className='grid grid-cols-2 gap-4 pt-4'>
+                    {
+                        extraSection?.map((section)=>(
+                            <div className='flex items-center'>
+                                {section?.icon}
+                                <p className='px-2'>{section?.label}</p>
+                            </div>
+                        ))
+                    }
+                </div>
             </div>
-
+            
         </div>
     )
 }
