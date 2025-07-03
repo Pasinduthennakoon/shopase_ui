@@ -747,7 +747,7 @@
             "size": [
                 "S"
             ],
-            "color": [],
+            "color": ["Black"],
             "discount": 15,
             "images": [
                 "images/Printed T-Shirt Kids.webp",
@@ -768,7 +768,9 @@
             "size": [
                 "S"
             ],
-            "color": [],
+            "color": [
+                "White"
+            ],
             "discount": 15,
             "images": [
                 "images/White Jeans Kids.webp",
