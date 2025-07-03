@@ -741,7 +741,7 @@
             "title": "Printed T-Shirt",
             "description": "Comfortable cotton colorful t-shirt for boys",
             "category_id": 3,
-            "type_id": 14,
+            "type_id": 21,
             "brand": "Adidas",
             "price": 59.99,
             "size": [
@@ -762,7 +762,7 @@
             "title": "White Jeans",
             "description": "Comfortable Denim Jeans for boys",
             "category_id": 3,
-            "type_id": 14,
+            "type_id": 20,
             "brand": "Polo",
             "price": 40.99,
             "size": [
